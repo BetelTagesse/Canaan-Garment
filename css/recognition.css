@@ -1,0 +1,229 @@
+.header_img{
+    height: 70vh;
+    width: 100%;
+    margin:auto;
+    margin-bottom: 100px;
+    position:relative;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../images/image_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.header_img p {
+    padding-top: 380px;
+    padding-left: 480px;
+    font-size: 70px;
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+}
+.awards{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:50px;
+}
+.awards h1, .testimonals h1{
+    color:  rgb(24, 15, 109);
+    font-size:50px;
+    padding-bottom:20px;
+   
+
+}
+.awards p, .testimonal p{
+    padding-top:10px;
+    /* line-height: 4.5; */
+}
+.awards-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position:relative;
+    overflow:hidden;
+}
+.awards-col img{
+    width:100%;
+    display: block;
+}
+.layer{
+    background: transparent;
+    height:100%;
+    width: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.layer:hover{
+    background:rgba(232, 92, 5, 0.7);
+    transition:0.5s;
+}
+
+.layer h3{
+    width:100%;
+    font-weight: 500;
+    color:#fff;
+    font-size:36px;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    position:absolute;
+    opacity:0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom:49%;
+    opacity:1;
+}
+.hero{
+    background: #ff676d;
+    height:100vh;
+    width:100%;
+    position:relative;
+}
+.hero h1{
+    text-align:center;
+    padding-top:80px;
+    font-size:40px;
+    color:#fff;
+}
+.slide-row{
+    display:flex;
+    width:3200px;
+    transition:0.5s;
+}
+.slide-col{
+    width:800px;
+    height:400px;
+    position: relative;
+}
+.user-img{
+    position:absolute;
+    top:0;
+    right:0;
+    height:100%;
+}
+.user-img img{
+    height:100%;
+    border-radius:10px;
+
+}
+.user-text{
+    background:#2d3a59;
+    width:520px;
+    height:270px;
+    position:absolute;
+    left:0;
+    top:50%;
+    transform: translateY(-50%);
+    border-radius:10px;
+    color:#d3d4d6;
+    padding:45px;
+    box-sizing:border-box;
+    z-index: 2;
+}
+.user-text p{
+    font-size:18px;
+    line-height:24px;
+
+}
+.user-text h3{
+    margin: 35px 0 5px;
+    color:#fff;
+}
+.recognition-container{
+    width:800px;
+    height:400px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+.indicator{
+    position:absolute;
+    left:20%;
+    transform:translateX(-50%);
+    bottom:-50px;
+}
+.btn{
+    display: inline-block;
+    height:15px;
+    margin:4px;
+    border-radius:15px;
+    background: #fff;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.active{
+    width:45px;
+
+}
+.testimonial-container{
+    width:100%;
+    height: 100%;
+    /* overflow:hidden; */
+}
+.testimonals{
+    width:70%;
+    margin:auto;
+    padding-top:100px;
+    text-align: center;
+    /* color:white; */
+    /* background: hsl(0, 0%, 100%); */
+    /* background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(../images/whiteback.jpg); */
+    background-position: center;
+    background-size: cover;
+}
+
+.testimonals p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.testimonal-col{
+    flex-basis:44%;
+    border-radius:10px;
+    /* margin-bottom:5%; */
+    text-align:left;
+    background: #f2efef;
+    
+    padding:25px;
+    cursor:pointer;
+    display: flex;
+}
+
+.testimonal-col img{
+    height:80px;
+    width:250px;
+    margin-left: 5px;
+    margin-right:30px;
+    margin-top: 20px;
+    border-radius:50%;
+
+}
+.testimonal-col p{
+    padding:0;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+.testimonal-col h3{
+    margin-top: 15px;
+    text-align: left;
+}
+.testimonal-col .fa{
+    color:rgb(255, 191, 0);
+    padding-top: 10px;
+}
+.staff{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+}
+.staff img{
+    width:100%;
+    padding-top: 30px;
+    opacity:0.9;
+}
+.staff h2{
+    padding-bottom: 20px;
+}
